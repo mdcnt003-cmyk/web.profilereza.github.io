@@ -1,0 +1,476 @@
+<!doctype html>
+<html lang="id">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Portofolio - Muhammad Reza Fadillah</title>
+  
+  <!-- Google Fonts: Plus Jakarta Sans -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  
+  <!-- Bootstrap Icons -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+  
+  <!-- Bootstrap 5 CSS -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+
+  <!-- Custom CSS -->
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <!-- 1. Navigasi (Brand + 3 Tautan Bagian Halaman) -->
+  <nav class="navbar navbar-expand-lg navbar-dark bg-dark sticky-top shadow-sm py-3">
+    <div class="container">
+      <a class="navbar-brand fw-bold d-flex align-items-center gap-2" href="#beranda">
+        <span class="brand-badge"><i class="bi bi-code-slash"></i></span>
+        <span>Zaaeya</span>
+      </a>
+      <button class="navbar-toggler border-0 shadow-none" type="button" data-bs-toggle="collapse" data-bs-target="#navbarMenu" aria-controls="navbarMenu" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse justify-content-end" id="navbarMenu">
+        <ul class="navbar-nav gap-lg-3 text-center mt-3 mt-lg-0">
+          <li class="nav-item">
+            <a class="nav-link active" href="#beranda">Beranda</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#proyek">Proyek Unggulan</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#layanan">Layanan & Keahlian</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <!-- 2. Bagian Pembuka (Hero: Judul, Deskripsi Singkat, Tombol) -->
+  <header id="beranda" class="hero-section text-white d-flex align-items-center">
+    <div class="container py-5">
+      <div class="row align-items-center gy-4">
+        <div class="col-lg-7 text-center text-lg-start">
+          <span class="badge bg-primary-subtle text-primary-emphasis px-3 py-2 rounded-pill fw-semibold mb-3 border border-primary-subtle">
+            <i class="bi bi-stars me-1"></i> Web Developer & Tech Enthusiast
+          </span>
+          <h1 class="display-5 fw-bold mb-3 hero-title">
+            Membangun Solusi Digital yang Cepat, Elegan, & Responsif
+          </h1>
+          <p class="lead text-light-50 mb-4 pe-lg-4">
+            Halo, saya Muhammad Reza Fadillah. Mahasiswa Teknik Informatika yang berfokus pada pengembangan web interaktif, antarmuka modern, dan implementasi teknologi terkini.
+          </p>
+          <div class="d-flex flex-wrap justify-content-center justify-content-lg-start gap-3">
+            <a href="#proyek" class="btn btn-primary btn-lg px-4 py-2 fw-semibold rounded-pill shadow-sm">
+              <i class="bi bi-grid-fill me-2"></i>Jelajahi Proyek
+            </a>
+            <a href="mailto:mhmmdreza300@gmail.com" class="btn btn-outline-light btn-lg px-4 py-2 fw-semibold rounded-pill">
+              <i class="bi bi-envelope-fill me-2"></i>Hubungi Saya
+            </a>
+          </div>
+        </div>
+        <div class="col-lg-5 text-center">
+          <div class="hero-image-wrapper mx-auto">
+            <img src="https://images.unsplash.com/photo-1507238691740-187a5b1d37b8?auto=format&fit=crop&w=600&q=80" alt="Hero Illustration" class="img-fluid rounded-4 shadow-lg hero-img">
+          </div>
+        </div>
+      </div>
+    </div>
+  </header>
+
+  <!-- 3. Tiga Card Berisi Gambar, Judul, dan Deskripsi -->
+  <main>
+    <section id="proyek" class="py-5 bg-light">
+      <div class="container py-4">
+        <div class="text-center max-w-600 mx-auto mb-5">
+          <span class="badge bg-primary text-white px-3 py-2 rounded-pill fw-semibold mb-2">Showcase</span>
+          <h2 class="fw-bold text-dark mb-2">Proyek Unggulan</h2>
+          <p class="text-muted">Karya dan eksplorasi teknologi yang telah diselesaikan dengan standar antarmuka terkini.</p>
+        </div>
+
+        <div class="row g-4">
+          <!-- Card 1: Sistem Dashboard & Rekap -->
+          <div class="col-md-6 col-lg-4">
+            <div class="card h-100 border-0 shadow-sm custom-card overflow-hidden">
+              <div class="card-img-container">
+                <img src="https://images.unsplash.com/photo-1551288049-bebda4e38f71?auto=format&fit=crop&w=600&q=80" class="card-img-top card-img-custom" alt="Sistem Dashboard & Rekap Data">
+                <span class="badge-category bg-primary text-white">Web App</span>
+              </div>
+              <div class="card-body p-4 d-flex flex-column">
+                <h5 class="card-title fw-bold text-dark mb-2">Sistem Dashboard & Rekap Data</h5>
+                <p class="card-text text-secondary mb-3">
+                  Aplikasi rekapitulasi data akademik dan aktivitas mahasiswa terpadu dengan tampilan antarmuka interaktif dan terstruktur.
+                </p>
+                <ul class="list-unstyled small text-secondary mb-4 flex-grow-1">
+                  <li class="mb-2 d-flex align-items-start">
+                    <i class="bi bi-check2-circle text-primary me-2 mt-1"></i>
+                    <span><strong>Manajemen Data:</strong> Input, edit, filter, dan pencarian riwayat data secara instan.</span>
+                  </li>
+                  <li class="mb-2 d-flex align-items-start">
+                    <i class="bi bi-check2-circle text-primary me-2 mt-1"></i>
+                    <span><strong>Ekspor Otomatis:</strong> Ekspor hasil rekapitulasi ke format CSV/spreadsheet.</span>
+                  </li>
+                  <li class="d-flex align-items-start">
+                    <i class="bi bi-check2-circle text-primary me-2 mt-1"></i>
+                    <span><strong>Statistik Dinamis:</strong> Visualisasi grafik ringkas untuk monitoring performa.</span>
+                  </li>
+                </ul>
+                <div class="d-flex align-items-center justify-content-between pt-3 border-top mt-auto">
+                  <span class="small text-muted"><i class="bi bi-code-square me-1"></i> HTML5, CSS3, JS</span>
+                  <button type="button" class="btn btn-sm btn-outline-primary rounded-pill px-3" data-bs-toggle="modal" data-bs-target="#modalDashboard">
+                    Lihat Detail <i class="bi bi-arrow-right"></i>
+                  </button>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Card 2: Hand Tracking & Gesture AI -->
+          <div class="col-md-6 col-lg-4">
+            <div class="card h-100 border-0 shadow-sm custom-card overflow-hidden">
+              <div class="card-img-container">
+                <img src="https://images.unsplash.com/photo-1526374965328-7f61d4dc18c5?auto=format&fit=crop&w=600&q=80" class="card-img-top card-img-custom" alt="Hand Tracking & AI Vision">
+                <span class="badge-category bg-success text-white">AI & CV</span>
+              </div>
+              <div class="card-body p-4 d-flex flex-column">
+                <h5 class="card-title fw-bold text-dark mb-2">Hand Tracking & Gesture AI</h5>
+                <p class="card-text text-secondary mb-3">
+                  Sistem pelacakan gestur tangan secara real-time berbasis Computer Vision untuk interaksi komputer tanpa sentuhan.
+                </p>
+                <ul class="list-unstyled small text-secondary mb-4 flex-grow-1">
+                  <li class="mb-2 d-flex align-items-start">
+                    <i class="bi bi-check2-circle text-success me-2 mt-1"></i>
+                    <span><strong>21 Landmark Points:</strong> Deteksi posisi jari dan persendian tangan presisi tinggi.</span>
+                  </li>
+                  <li class="mb-2 d-flex align-items-start">
+                    <i class="bi bi-check2-circle text-success me-2 mt-1"></i>
+                    <span><strong>Klasifikasi Gestur:</strong> Pengenalan pola gerakan tangan untuk trigger perintah.</span>
+                  </li>
+                  <li class="d-flex align-items-start">
+                    <i class="bi bi-check2-circle text-success me-2 mt-1"></i>
+                    <span><strong>Real-Time Vision:</strong> Pemrosesan video webcam dengan latensi ultra rendah.</span>
+                  </li>
+                </ul>
+                <div class="d-flex align-items-center justify-content-between pt-3 border-top mt-auto">
+                  <span class="small text-muted"><i class="bi bi-cpu me-1"></i> Python, MediaPipe, OpenCV</span>
+                  <button type="button" class="btn btn-sm btn-outline-success rounded-pill px-3" data-bs-toggle="modal" data-bs-target="#modalHandTracking">
+                    Lihat Detail <i class="bi bi-arrow-right"></i>
+                  </button>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Card 3: Landing Page & Portofolio -->
+          <div class="col-md-6 col-lg-4">
+            <div class="card h-100 border-0 shadow-sm custom-card overflow-hidden">
+              <div class="card-img-container">
+                <img src="https://images.unsplash.com/photo-1460925895917-afdab827c52f?auto=format&fit=crop&w=600&q=80" class="card-img-top card-img-custom" alt="Landing Page Responsif">
+                <span class="badge-category bg-warning text-dark">UI/UX Web</span>
+              </div>
+              <div class="card-body p-4 d-flex flex-column">
+                <h5 class="card-title fw-bold text-dark mb-2">Landing Page & Portofolio</h5>
+                <p class="card-text text-secondary mb-3">
+                  Website profil profesional dengan rancangan antarmuka modern, tipografi dinamis, serta navigasi yang ergonomis.
+                </p>
+                <ul class="list-unstyled small text-secondary mb-4 flex-grow-1">
+                  <li class="mb-2 d-flex align-items-start">
+                    <i class="bi bi-check2-circle text-warning me-2 mt-1"></i>
+                    <span><strong>Multi-Device:</strong> Tampilan fleksibel untuk desktop, tablet, dan smartphone.</span>
+                  </li>
+                  <li class="mb-2 d-flex align-items-start">
+                    <i class="bi bi-check2-circle text-warning me-2 mt-1"></i>
+                    <span><strong>Desain Modern:</strong> Menggunakan palet warna seimbang dan komponen terstandar.</span>
+                  </li>
+                  <li class="d-flex align-items-start">
+                    <i class="bi bi-check2-circle text-warning me-2 mt-1"></i>
+                    <span><strong>Akses Cepat:</strong> Optimasi struktur kode ringan dan performa loading maksimal.</span>
+                  </li>
+                </ul>
+                <div class="d-flex align-items-center justify-content-between pt-3 border-top mt-auto">
+                  <span class="small text-muted"><i class="bi bi-bootstrap me-1"></i> Bootstrap 5, Flexbox</span>
+                  <button type="button" class="btn btn-sm btn-outline-warning text-dark rounded-pill px-3" data-bs-toggle="modal" data-bs-target="#modalPortfolio">
+                    Lihat Detail <i class="bi bi-arrow-right"></i>
+                  </button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Bagian Tambahan: Layanan & Keahlian -->
+    <section id="layanan" class="py-5 bg-white">
+      <div class="container py-4">
+        <div class="text-center max-w-600 mx-auto mb-5">
+          <span class="badge bg-info-subtle text-info-emphasis px-3 py-2 rounded-pill fw-semibold mb-2">Kompetensi</span>
+          <h2 class="fw-bold text-dark mb-2">Layanan & Keahlian</h2>
+          <p class="text-muted">Fokus bidang yang dikuasai untuk mendukung pengembangan aplikasi berkualitas.</p>
+        </div>
+
+        <div class="row g-4 text-center">
+          <div class="col-md-4">
+            <div class="p-4 rounded-4 bg-light h-100 service-box">
+              <div class="icon-circle bg-primary text-white mx-auto mb-3">
+                <i class="bi bi-laptop fs-3"></i>
+              </div>
+              <h5 class="fw-bold text-dark mb-2">Frontend Development</h5>
+              <p class="text-muted small mb-0">Merancang layout website yang estetik, terstruktur rapi, dan cepat diakses.</p>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="p-4 rounded-4 bg-light h-100 service-box">
+              <div class="icon-circle bg-success text-white mx-auto mb-3">
+                <i class="bi bi-phone fs-3"></i>
+              </div>
+              <h5 class="fw-bold text-dark mb-2">Desain Responsif</h5>
+              <p class="text-muted small mb-0">Memastikan tampilan adaptif dan konsisten di smartphone, tablet, maupun desktop.</p>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="p-4 rounded-4 bg-light h-100 service-box">
+              <div class="icon-circle bg-indigo text-white mx-auto mb-3">
+                <i class="bi bi-git fs-3"></i>
+              </div>
+              <h5 class="fw-bold text-dark mb-2">Version Control</h5>
+              <p class="text-muted small mb-0">Manajemen kode sumber menggunakan Git & GitHub untuk kolaborasi yang rapi.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- 4. Footer Berisi Nama dan NIM -->
+  <footer class="bg-dark text-white py-4 border-top border-secondary-subtle">
+    <div class="container">
+      <div class="row align-items-center gy-3 text-center text-md-start">
+        <div class="col-md-6">
+          <h5 class="fw-bold mb-1 d-flex align-items-center justify-content-center justify-content-md-start gap-2">
+            <i class="bi bi-person-badge text-primary"></i> Muhammad Reza Fadillah
+          </h5>
+          <p class="text-light-50 mb-0 small">
+            NIM: <span class="badge bg-secondary text-white fw-semibold">2511102441331</span> | Teknik Informatika
+          </p>
+        </div>
+        <div class="col-md-6 text-center text-md-end">
+          <div class="d-flex justify-content-center justify-content-md-end gap-3 mb-1">
+            <a href="https://github.com" target="_blank" rel="noopener" class="text-light-50 hover-text-white fs-5" aria-label="GitHub"><i class="bi bi-github"></i></a>
+            <a href="https://instagram.com" target="_blank" rel="noopener" class="text-light-50 hover-text-white fs-5" aria-label="Instagram"><i class="bi bi-instagram"></i></a>
+            <a href="mailto:mhmmdreza300@gmail.com" class="text-light-50 hover-text-white fs-5" aria-label="Email"><i class="bi bi-envelope"></i></a>
+          </div>
+          <p class="text-secondary small mb-0">&copy; 2026 Muhammad Reza Fadillah. Hak Cipta Dilindungi.</p>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <!-- ================= MODAL DETAIL MATERI PROYEK ================= -->
+
+  <!-- Modal 1: Sistem Dashboard & Rekap Data -->
+  <div class="modal fade" id="modalDashboard" tabindex="-1" aria-labelledby="modalDashboardLabel" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered modal-lg">
+      <div class="modal-content rounded-4 border-0 shadow-lg overflow-hidden">
+        <div class="modal-header bg-primary text-white border-0 py-3">
+          <h5 class="modal-title fw-bold" id="modalDashboardLabel">
+            <i class="bi bi-clipboard-data-fill me-2"></i>Detail: Sistem Dashboard & Rekap Data
+          </h5>
+          <button type="button" class="btn-close btn-close-white" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body p-4">
+          <img src="https://images.unsplash.com/photo-1551288049-bebda4e38f71?auto=format&fit=crop&w=900&q=80" alt="Preview Dashboard" class="img-fluid rounded-3 mb-4 w-100 object-fit-cover" style="max-height: 260px;">
+          
+          <h6 class="fw-bold text-dark border-bottom pb-2 mb-3">
+            <i class="bi bi-info-circle text-primary me-1"></i> Deskripsi & Tujuan Proyek
+          </h6>
+          <p class="text-secondary leading-relaxed">
+            Sistem Dashboard & Rekap Data adalah solusi web terintegrasi yang dirancang untuk mengelola, merekapitulasi, dan memonitor data operasional serta aktivitas akademik. Bertujuan menggantikan proses pencatatan manual menjadi otomatis, rapi, dan mudah dianalisis.
+          </p>
+
+          <h6 class="fw-bold text-dark border-bottom pb-2 mb-3 mt-4">
+            <i class="bi bi-stars text-primary me-1"></i> Rincian Fitur Utama
+          </h6>
+          <div class="row g-3 mb-3">
+            <div class="col-md-6">
+              <div class="p-3 bg-light rounded-3 h-100 border">
+                <div class="fw-semibold text-dark mb-1"><i class="bi bi-database-check text-primary me-1"></i> Manajemen Data CRUD</div>
+                <div class="small text-muted">Mendukung penambahan, pengubahan, dan penghapusan data secara dinamis dengan validasi input yang ketat.</div>
+              </div>
+            </div>
+            <div class="col-md-6">
+              <div class="p-3 bg-light rounded-3 h-100 border">
+                <div class="fw-semibold text-dark mb-1"><i class="bi bi-search text-primary me-1"></i> Pencarian & Filter Cepat</div>
+                <div class="small text-muted">Fitur penyaringan data instan berdasarkan nama, tanggal, maupun kategori status tanpa reload halaman.</div>
+              </div>
+            </div>
+            <div class="col-md-6">
+              <div class="p-3 bg-light rounded-3 h-100 border">
+                <div class="fw-semibold text-dark mb-1"><i class="bi bi-file-earmark-spreadsheet text-primary me-1"></i> Ekspor Laporan Otomatis</div>
+                <div class="small text-muted">Pengunduhan rekapitulasi data ke format CSV atau Excel (.xlsx) siap cetak dan arsip.</div>
+              </div>
+            </div>
+            <div class="col-md-6">
+              <div class="p-3 bg-light rounded-3 h-100 border">
+                <div class="fw-semibold text-dark mb-1"><i class="bi bi-bar-chart-line text-primary me-1"></i> Visualisasi Statistik</div>
+                <div class="small text-muted">Penyajian ringkasan metrik dalam bentuk grafik batang dan persentase pencapaian.</div>
+              </div>
+            </div>
+          </div>
+
+          <h6 class="fw-bold text-dark border-bottom pb-2 mb-2 mt-4">
+            <i class="bi bi-tools text-primary me-1"></i> Teknologi yang Digunakan
+          </h6>
+          <div class="d-flex flex-wrap gap-2 pt-1">
+            <span class="badge bg-primary-subtle text-primary border border-primary-subtle px-3 py-2">HTML5 Semantik</span>
+            <span class="badge bg-primary-subtle text-primary border border-primary-subtle px-3 py-2">CSS3 & Bootstrap 5</span>
+            <span class="badge bg-primary-subtle text-primary border border-primary-subtle px-3 py-2">JavaScript ES6+</span>
+            <span class="badge bg-primary-subtle text-primary border border-primary-subtle px-3 py-2">LocalStorage API</span>
+          </div>
+        </div>
+        <div class="modal-footer border-0 bg-light p-3">
+          <button type="button" class="btn btn-secondary rounded-pill px-4" data-bs-dismiss="modal">Tutup</button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Modal 2: Hand Tracking & Gesture AI -->
+  <div class="modal fade" id="modalHandTracking" tabindex="-1" aria-labelledby="modalHandTrackingLabel" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered modal-lg">
+      <div class="modal-content rounded-4 border-0 shadow-lg overflow-hidden">
+        <div class="modal-header bg-success text-white border-0 py-3">
+          <h5 class="modal-title fw-bold" id="modalHandTrackingLabel">
+            <i class="bi bi-cpu-fill me-2"></i>Detail: Hand Tracking & Gesture AI
+          </h5>
+          <button type="button" class="btn-close btn-close-white" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body p-4">
+          <img src="https://images.unsplash.com/photo-1526374965328-7f61d4dc18c5?auto=format&fit=crop&w=900&q=80" alt="Preview Hand Tracking" class="img-fluid rounded-3 mb-4 w-100 object-fit-cover" style="max-height: 260px;">
+          
+          <h6 class="fw-bold text-dark border-bottom pb-2 mb-3">
+            <i class="bi bi-info-circle text-success me-1"></i> Deskripsi & Tujuan Proyek
+          </h6>
+          <p class="text-secondary leading-relaxed">
+            Hand Tracking & Gesture AI adalah implementasi kecerdasan buatan berbasis visi komputer (Computer Vision) untuk mendeteksi posisi, pergerakan, dan bentuk gestur tangan pengguna secara langsung melalui kamera video tanpa sensor fisik tambahan.
+          </p>
+
+          <h6 class="fw-bold text-dark border-bottom pb-2 mb-3 mt-4">
+            <i class="bi bi-stars text-success me-1"></i> Rincian Fitur Utama
+          </h6>
+          <div class="row g-3 mb-3">
+            <div class="col-md-6">
+              <div class="p-3 bg-light rounded-3 h-100 border">
+                <div class="fw-semibold text-dark mb-1"><i class="bi bi-hand-index text-success me-1"></i> 21 Titik Koordinat Landmark</div>
+                <div class="small text-muted">Pelacakan posisi 3D tiap persendian jari tangan mulai dari ujung jari hingga pergelangan tangan.</div>
+              </div>
+            </div>
+            <div class="col-md-6">
+              <div class="p-3 bg-light rounded-3 h-100 border">
+                <div class="fw-semibold text-dark mb-1"><i class="bi bi-broadcast-pin text-success me-1"></i> Pemrosesan Real-Time</div>
+                <div class="small text-muted">Kemampuan inferensi model cerdas dengan frame rate 30+ FPS dan latensi rendah.</div>
+              </div>
+            </div>
+            <div class="col-md-6">
+              <div class="p-3 bg-light rounded-3 h-100 border">
+                <div class="fw-semibold text-dark mb-1"><i class="bi bi-toggle-on text-success me-1"></i> Interaksi Tanpa Sentuhan</div>
+                <div class="small text-muted">Pemetaan gerakan gestur untuk mengontrol navigasi, volume media, dan virtual mouse.</div>
+              </div>
+            </div>
+            <div class="col-md-6">
+              <div class="p-3 bg-light rounded-3 h-100 border">
+                <div class="fw-semibold text-dark mb-1"><i class="bi bi-bounding-box text-success me-1"></i> Visual Skeleton Overlay</div>
+                <div class="small text-muted">Penggambaran garis rangka tangan interaktif langsung di atas feed video kamera.</div>
+              </div>
+            </div>
+          </div>
+
+          <h6 class="fw-bold text-dark border-bottom pb-2 mb-2 mt-4">
+            <i class="bi bi-tools text-success me-1"></i> Teknologi yang Digunakan
+          </h6>
+          <div class="d-flex flex-wrap gap-2 pt-1">
+            <span class="badge bg-success-subtle text-success border border-success-subtle px-3 py-2">Python 3</span>
+            <span class="badge bg-success-subtle text-success border border-success-subtle px-3 py-2">Google MediaPipe Hands</span>
+            <span class="badge bg-success-subtle text-success border border-success-subtle px-3 py-2">OpenCV (cv2)</span>
+            <span class="badge bg-success-subtle text-success border border-success-subtle px-3 py-2">NumPy & Math Model</span>
+          </div>
+        </div>
+        <div class="modal-footer border-0 bg-light p-3">
+          <button type="button" class="btn btn-secondary rounded-pill px-4" data-bs-dismiss="modal">Tutup</button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Modal 3: Landing Page & Portofolio -->
+  <div class="modal fade" id="modalPortfolio" tabindex="-1" aria-labelledby="modalPortfolioLabel" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered modal-lg">
+      <div class="modal-content rounded-4 border-0 shadow-lg overflow-hidden">
+        <div class="modal-header bg-warning text-dark border-0 py-3">
+          <h5 class="modal-title fw-bold" id="modalPortfolioLabel">
+            <i class="bi bi-layout-wtf me-2"></i>Detail: Landing Page & Portofolio
+          </h5>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body p-4">
+          <img src="https://images.unsplash.com/photo-1460925895917-afdab827c52f?auto=format&fit=crop&w=900&q=80" alt="Preview Landing Page" class="img-fluid rounded-3 mb-4 w-100 object-fit-cover" style="max-height: 260px;">
+          
+          <h6 class="fw-bold text-dark border-bottom pb-2 mb-3">
+            <i class="bi bi-info-circle text-warning me-1"></i> Deskripsi & Tujuan Proyek
+          </h6>
+          <p class="text-secondary leading-relaxed">
+            Landing Page & Portofolio Personal dirancang untuk menampilkan profil keahlian, pencapaian proyek, dan informasi kontak secara profesional. Mengutamakan estetika visual modern, performa akses kilat, serta kenyamanan pengguna di semua ukuran perangkat.
+          </p>
+
+          <h6 class="fw-bold text-dark border-bottom pb-2 mb-3 mt-4">
+            <i class="bi bi-stars text-warning me-1"></i> Rincian Fitur Utama
+          </h6>
+          <div class="row g-3 mb-3">
+            <div class="col-md-6">
+              <div class="p-3 bg-light rounded-3 h-100 border">
+                <div class="fw-semibold text-dark mb-1"><i class="bi bi-phone-flip text-warning me-1"></i> Responsivitas Multi-Layar</div>
+                <div class="small text-muted">Penyesuaian tata letak otomatis dan optimal pada smartphone, tablet, laptop, dan monitor lebar.</div>
+              </div>
+            </div>
+            <div class="col-md-6">
+              <div class="p-3 bg-light rounded-3 h-100 border">
+                <div class="fw-semibold text-dark mb-1"><i class="bi bi-palette-fill text-warning me-1"></i> Desain Visual Modern</div>
+                <div class="small text-muted">Komposisi warna elegan, micro-interactions hover halus, serta tipografi Plus Jakarta Sans.</div>
+              </div>
+            </div>
+            <div class="col-md-6">
+              <div class="p-3 bg-light rounded-3 h-100 border">
+                <div class="fw-semibold text-dark mb-1"><i class="bi bi-window-stack text-warning me-1"></i> Dialog Interaktif Modal</div>
+                <div class="small text-muted">Penyajian materi lengkap proyek tanpa meninggalkan alur halaman utama.</div>
+              </div>
+            </div>
+            <div class="col-md-6">
+              <div class="p-3 bg-light rounded-3 h-100 border">
+                <div class="fw-semibold text-dark mb-1"><i class="bi bi-lightning-charge-fill text-warning me-1"></i> Fast Load & Clean Code</div>
+                <div class="small text-muted">Kode HTML/CSS terstruktur rapi, valid, dan sangat ringan saat pertama kali dimuat.</div>
+              </div>
+            </div>
+          </div>
+
+          <h6 class="fw-bold text-dark border-bottom pb-2 mb-2 mt-4">
+            <i class="bi bi-tools text-warning me-1"></i> Teknologi yang Digunakan
+          </h6>
+          <div class="d-flex flex-wrap gap-2 pt-1">
+            <span class="badge bg-warning-subtle text-dark border border-warning-subtle px-3 py-2">Bootstrap 5.3.3</span>
+            <span class="badge bg-warning-subtle text-dark border border-warning-subtle px-3 py-2">CSS3 Flexbox & Grid</span>
+            <span class="badge bg-warning-subtle text-dark border border-warning-subtle px-3 py-2">Bootstrap Icons CDN</span>
+            <span class="badge bg-warning-subtle text-dark border border-warning-subtle px-3 py-2">Google Fonts</span>
+          </div>
+        </div>
+        <div class="modal-footer border-0 bg-light p-3">
+          <button type="button" class="btn btn-secondary rounded-pill px-4" data-bs-dismiss="modal">Tutup</button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Bootstrap 5 JS Bundle -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
